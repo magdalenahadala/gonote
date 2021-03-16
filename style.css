@@ -1,36 +1,38 @@
-p{
-    background-color: #D1FAD2;
-    color: black;
-    margin-bottom: auto;
-    margin-top: 0px;
-    padding: 3px 5px;
-    padding: 10px;
-    
+input {	
+ border: 1px solid grey;
+ border-radius: 5px;
+ padding: 3px 5px;
+ margin-bottom: 10px;
 }
 
-h2{
-    color: cadetblue;
-    padding: 10 px;
+body {
+	font-family: Arial;
 }
 
-body{
-    font-family: raleway;
+h1, h2 {
+	color: green;
+	font-variant: small-caps;
 }
 
-h1{
-    color: green;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 3px 5px;
-    margin-bottom: 0px;
-    background-color: #D1FAD2;
-    padding: 10px;
-
-}
-a{
-    color: cornflowerblue;
+img.main-image {
+	border: 2px solid #54C03F;
+	border-radius: 50%;
 }
 
-div{
-    padding: 10px;
+#main-header {
+	background-color: #D1FAD2;
+	padding: 10px;
+}
+
+a {
+	color: darkgreen;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.cover {
+ background-image: url("work.jpg");
+ background-position: center;
+ background-size: cover;
+ min-height: 150px;
 }
