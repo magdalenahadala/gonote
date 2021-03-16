@@ -1,0 +1,35 @@
+p{
+    background-color: #D1FAD2;
+    color: black;
+    margin-bottom: auto;
+    margin-top: 0px;
+    padding: 3px 5px;
+    padding: 10px;
+    
+}
+
+h2{
+    color: cadetblue;
+}
+
+body{
+    font-family: poppins;
+}
+
+h1{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 5px;
+    margin-bottom: 0px;
+    background-color: #D1FAD2;
+    padding: 10px;
+
+}
+a{
+    color: cornflowerblue;
+}
+
+div{
+    padding: 10px;
+}
