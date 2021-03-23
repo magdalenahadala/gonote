@@ -125,7 +125,7 @@
 
                 <img src="work.jpg" alt="baner" width="100%" height="auto">
 -->
-<!--
+                <!--
                 <button type="button" class="btn btn-outline-danger">
                     <i class="bi-trash-fill"></i>
                 </button>
@@ -157,6 +157,22 @@
         </div>
     </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function createNotes() {
+            var i = 1;
+            var notes = [];
+            while (i <= 100) {
+                var noteName = "Notatka" + " " + i; //"notatka 20"
+                var noteContent = "Zawartość" + " " + i;
+                var note = {name: noteName, content: noteContent};
+                notes.push(note);
+                i = i + 1;
+            }
+            return notes;
+        }
+        var temp = createNotes();
+        console.log(temp);
+    </script>
 </body>
 
 </html>
